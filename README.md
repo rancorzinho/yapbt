@@ -3,8 +3,8 @@
 This is a script to make backdoored PE executables. It uses the `pefile` Python library for the
 necessary PE modifications. No effort has been made to bypass AV detection.
 
-This has been done to death but most of the resources I find on this uses Olly and manual patching
-and I prefer fully automated solutions.
+This has been done to death but most of the resources I found on this uses Olly and/or manual
+patching. I prefer fully automated solutions.
 
 ## Usage
 
