@@ -1,7 +1,7 @@
 # Backdoor for PE executables
 
-This is a script to make backdoored PE executables. It uses `pefile` for the necessary PE
-modifications. No effort has been made to bypass AV detection.
+This is a script to make backdoored PE executables. It uses the `pefile` Python library for the
+necessary PE modifications. No effort has been made to bypass AV detection.
 
 This has been done to death but most of the resources I find on this uses Olly and manual patching
 and I prefer fully automated solutions.
