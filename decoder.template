@@ -1,0 +1,12 @@
+bits 32
+
+mov ecx, {size}
+mov eax, {addr}
+mov ebx, {addr}
+
+lp:
+    xor BYTE [eax], {byte}
+    inc eax
+    loop lp
+
+    jmp ebx
