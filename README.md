@@ -1,7 +1,8 @@
-# Backdooring PE executables
+# YAPBT
 
-This is a script to make backdoored PE executables. It uses the `pefile` Python library for the
-necessary header modifications. No effort has been made to bypass AV detection.
+Yet Another PE Backdoor Tool is a script to make backdoored PE executables. It uses the `pefile`
+Python library for the necessary header modifications. No effort has been made to bypass AV
+detection.
 
 This has been done to death but most of the resources I found on this uses Olly and/or manual
 patching. I prefer fully automated solutions.
@@ -9,7 +10,7 @@ patching. I prefer fully automated solutions.
 ## Usage
 
 Modify `decoder.template` and `shellcode.template` to do what you want and then run:
-`./pe-backdoor.py original.exe backdoored.exe`
+`./yapbt.py original.exe backdoored.exe`
 
 ## How does it work?
 
