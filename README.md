@@ -11,7 +11,7 @@ patching. I prefer fully automated solutions.
 Modify `decoder.template` and `shellcode.template` to do what you want and then run:
 `./pe-backdoor.py original.exe backdoored.exe`
 
-## How does it works
+## How does it work?
 
 This script can backdoor a PE file in two ways:
 
