@@ -1,4 +1,4 @@
-# Backdoor for PE executables
+# Backdooring PE executables
 
 This is a script to make backdoored PE executables. It uses the `pefile` Python library for the
 necessary PE modifications. No effort has been made to bypass AV detection.
